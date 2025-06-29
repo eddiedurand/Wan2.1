@@ -268,4 +268,7 @@ class WanT2V:
         if dist.is_initialized():
             dist.barrier()
 
+
+
         return videos[0] if self.rank == 0 else None
+
